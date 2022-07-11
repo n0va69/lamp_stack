@@ -8,6 +8,7 @@
   tasks:
 
     - name: "Installing packages"
+    - name: " variable added"
     - name: "crating httpd.conf from template" 
     - name: "virtualhost created from template"
     - name: "creating documentroot for virtualhost"

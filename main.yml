@@ -1,0 +1,14 @@
+---
+- name: "Deploying Flask Application" 
+  become: true
+  hosts: all
+  vars_file:
+    - vars.yml
+    - secret-vars.yml
+  tasks:
+
+    - name: "Installing packages"
+    - name: "crating httpd.conf from template" 
+    - name: "virtualhost created from template"
+    - name: "creating documentroot for virtualhost"
+    - name: "restarting/enabling services"
